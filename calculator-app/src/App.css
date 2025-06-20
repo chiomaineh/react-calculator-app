@@ -40,6 +40,8 @@ button {
   cursor: pointer;
   transition:  0.2s;
   max-width: 50px;
+  color:#222;
+  all:unset;
 }
 
 .backspace {
@@ -48,4 +50,6 @@ button {
 
 h2 {
   margin-top: -50px;
+ 
 }
+
