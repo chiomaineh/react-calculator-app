@@ -41,7 +41,8 @@ button {
   transition:  0.2s;
   max-width: 50px;
   color:#222;
-  all:unset;
+  appearance: none;     /* Remove platform styles */
+  -webkit-appearance: none;
 }
 
 .backspace {
